@@ -1,0 +1,13 @@
+
+
+	index
+		events
+			quiz
+			paper		//register		//know more
+			logical							description
+		todays quiz							sample question
+			normal quiz						register
+			logical
+		professors desk
+		about us
+			contact us

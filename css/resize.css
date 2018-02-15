@@ -1,0 +1,61 @@
+@charset "utf-8";
+@media all and (min-width: 50px)   {
+	  .thumbnail__overlay  {
+		   font-size:0.1em;  
+} 
+}
+@media all and (min-width: 100px)  {
+	  .thumbnail__overlay  { 
+	  font-size:0.2em;
+} 
+}
+@media all and (min-width: 200px)  {
+	  .thumbnail__overlay  {
+		  font-size:0.4em;  
+} 
+}
+@media all and (min-width: 300px)  {
+	  .thumbnail__overlay  { 
+	  font-size:0.6em;  
+} 
+}
+@media all and (min-width: 400px)  {
+	  .thumbnail__overlay  { 
+	  font-size:0.8em;  
+} 
+}
+@media all and (min-width: 500px)  {
+	  .thumbnail__overlay  { 
+	  font-size:1.0em;  
+} 
+}
+@media all and (min-width: 600px)  {  
+	.thumbnail__overlay  { 
+	font-size:1.2em;  
+} 
+}
+@media all and (min-width: 700px)  {  
+	.thumbnail__overlay  { 
+	font-size:1.4em;  
+} 
+}
+@media all and (min-width: 800px)  {  
+	.thumbnail__overlay  { 
+	font-size:1.6em;  
+} 
+}
+@media all and (min-width: 900px)  {  
+	.thumbnail__overlay  { 
+	font-size:1.8em;  
+} 
+}
+@media all and (min-width: 1000px) {  
+	.thumbnail__overlay  { 
+	font-size:2.0em;  
+} 
+}
+@media all and (min-width: 1100px) {  
+	.thumbnail__overlay  { 
+	font-size:2.2em;  
+} 
+}

@@ -1,0 +1,51 @@
+.thumbnail__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.thumbnail__overlay {
+	overflow: hidden;
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.5s linear;
+}
+.thumbnail__overlay:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.thumbnail__overlay:hover .thumbnail__title {
+  opacity: 1;
+}
+.thumbnail__title {
+  position: relative;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  transform: translateY(-50%);
+  
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+.thumbnail__title p {
+	margin-bottom: 0px;
+	font-size: 1.5em;
+}
+.thumbnail__title h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#quiz {
+	color: rgba(41,7,5,1);
+}
+#paper {
+	color: rgba(3,12,43,1);
+}
+#logical {
+	color: rgba(28,66,0,1);
+}
+

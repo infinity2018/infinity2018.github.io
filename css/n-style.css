@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+body {
+	background-color: black;
+	background-size: 100% auto;
+	background-position: center center;
+	color: #C93;
+	font-family: 'Macondo Swash Caps', cursive;
+}
+h1 {
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	font-size: 3em;
+}
+h2 {
+	font-family: 'Audiowide', cursive;
+}
+p, li {
+	font-size: 1.3em;
+}
+
+.navbar {
+	min-height: 70px;
+	box-shadow: 0 2px 3px #FFF;
+}
+
+.navbar-nav > li > a {
+	line-height: 40px;
+	min-width: 100px;
+	text-align: center;
+	/* font-size: */
+}
+  
+.navbar-inverse {
+  background: rgba(62, 195, 246, 0);
+  border-bottom: none;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: 1px solid #333;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #22F;
+  cursor: pointer;
+}
+
+
+
+.navbar-inverse {
+   background: rgba(20,46,123,1);
+}
+.small-logo-container {
+    padding-top: 5px;
+    height: 70px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+.co {
+	position:relative;
+	height: 400px;
+	width: 600px;
+	display:block;
+	margin: 0px auto 20px auto;
+}
+.modal-content {
+	color: black;
+}
+
+.con {
+	width: 50%;
+	height: auto;
+	margin: 0% auto;
+}

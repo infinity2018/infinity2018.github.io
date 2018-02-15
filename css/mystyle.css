@@ -1,0 +1,73 @@
+@charset "utf-8";
+body {
+	background-color: black;
+	background-size: 100% auto;
+	background-position: center center;
+	color: #C93;
+	font-family: 'Macondo Swash Caps', cursive;
+	font-size: 19px;
+}
+
+#events {
+	text-align: center;
+}
+
+.headin {
+	font-size: 100px;
+	color: #FC6;
+	font-weight: 700;	
+	}
+
+#quiz,#paper,#logical {
+	position: relative ;
+	padding: 0px 0px;
+	margin: 15px;
+}
+
+.today {
+	width:50%; 
+	height:auto; 
+	float:left;
+}
+.pp {
+	height: auto;
+	position: relative;
+	min-height: 100px;
+	
+}
+
+.tx {
+	position: absolute;
+	float: right;
+	width: 50%;
+	height: 100%;
+	left: 50%;
+}
+
+
+.tx2 {
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+	overflow:auto;
+}
+.t {
+	margin: 0px 0px;
+}
+
+@media (max-width: 767px) {
+	.t {
+		height: 10px;
+		margin: 5px;
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.pp {
+		width: 100%;
+		display: block;
+		overflow:auto;
+	}
+	
+}
+

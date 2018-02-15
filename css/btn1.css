@@ -1,0 +1,120 @@
+@charset "utf-8";
+button {
+  color: #454545;
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #454545;
+  position: relative;
+  margin: 0.4em 0.4em;
+  display: inline-block;
+  padding: 0.5em 0.4em;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+button:before,
+button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-color: #454545;
+  box-sizing: border-box;
+  border-style: solid;
+  width: 1em;
+  height: 1em;
+  transition: all 0.3s ease-in-out;
+}
+button:before {
+  top: -6px;
+  left: -6px;
+  border-width: 2px 0 0 2px;
+  z-index: 1;
+}
+button:after {
+  bottom: -6px;
+  right: -6px;
+  border-width: 0 2px 2px 0;
+}
+button:hover:before,
+button:hover:after {
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  border-color: #fff;
+}
+button:hover {
+  color: #353535;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+.panel {
+  max-width: 960px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  overflow: auto;
+}
+
+
+/*pink*/
+.pink button {
+	color: #15B5EA;
+	border-color: #15B5EA;
+}
+.pink button:before,
+.pink button:after {
+	border-color: #15B5EA;
+}
+.pink button:hover:before,
+.pink button:hover:after {
+	border-color: #15B5EA;
+}
+.pink button:hover {
+	color: #00F;
+	font-weight: bold;
+	background-color: #15B5EA;
+	border-color: #15B5EA;
+}
+.pink .panel {
+  max-width: 960px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+/*pink ends*/
+
+
+/*blue*/
+.blue button {
+  color: #3bb4e5;
+  border-color: #3bb4e5;
+}
+.blue button:before,
+.blue button:after {
+  border-color: #3bb4e5;
+}
+.blue button:hover:before,
+.blue button:hover:after {
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  border-color: #3bb4e5;
+  transform: rotateY(180deg);
+}
+.blue button:hover {
+  color: #3bb4e5;
+  background-color: transparent;
+  border-color: #3bb4e5;
+}
+.blue .panel {
+  max-width: 960px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+@media (max-width: 991px) {
+	button {
+		font-size: 12px;
+	}
+}

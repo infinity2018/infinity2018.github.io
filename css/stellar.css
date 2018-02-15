@@ -1,0 +1,34 @@
+
+.s1 {
+	background-image: url(../img/st.png);
+}
+.s2 {
+	background-image: ;
+	background-image: url(../img/bk.jpg);
+}
+
+
+.stellar
+{
+	width: 100%;
+	height: 400px;
+	background-position: center center;
+	margin: 0;
+	display: table;
+	background-size: cover;
+	background-attatchment: fixed;
+}
+
+
+.stellar h1
+{
+  position:realtive;
+  margin: 0 auto;
+  vertical-align: middle; 
+  display: table-cell;
+  font-weight: 400;
+  font-size: 60px;
+  color: #F60;
+  text-align:center;
+}
+

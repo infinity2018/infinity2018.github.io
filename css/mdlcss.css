@@ -1,0 +1,47 @@
+
+
+#modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+#modal-container:not(:target) {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+#modal-container:target {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.modaal {
+  width: auto;
+  background: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.butn {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+  padding: 8px 10px;
+  text-decoration: none;
+  width:inherit;
+  margin-bottom:10px;
+}
+.butn:hover,.btn:focus {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+  text-decoration:none;
+}
