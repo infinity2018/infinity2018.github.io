@@ -38,6 +38,7 @@
 .thumbnail__title h3 {
 	margin-top: 5px;
 	margin-bottom: 5px;
+	font-size: 1.7em;
 }
 #quiz {
 	color: rgba(41,7,5,1);
@@ -46,6 +47,6 @@
 	color: rgba(3,12,43,1);
 }
 #logical {
-	color: rgba(28,66,0,1);
+	color: rgba(18,43,0,1);
 }
 
