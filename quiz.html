@@ -8,8 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Macondo+Swash+Caps" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-	
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 	</head>
     <body>
     	   <!-- Fixed navbar -->
@@ -109,7 +108,7 @@
 
         <div class="col-lg-7 col-sm-7">
         	<ol>
-                <li> what is 2+3-5*2+20?</li>
+                <li><p>If \(m\) is a positive integer such that  \[\sum_{n=1}^{\infty }log\Big({1-\frac{1}{{(n+5)}^{2}}}\Big)=log{\left (  \frac{m}{m+1}\right )}\]what is the value of \(m\)? </p></li>
 		
 		
 				  <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Modal1">Answer</button>
@@ -125,7 +124,12 @@
 					  <h4 class="modal-title">Answer</h4>
 					</div>
 					<div class="modal-body">
-					  <p>The answer is 15.</p>
+                    	<p>The answer is \(m = 5\)</p>
+					  <p>Using \(log(a) + log(b) = log(ab)\) we have \[\prod_{n=1}^{\infty}\left ( 1- \frac{1}{(n+5)^2} \right ) = \frac{m}{m + 1}\]</p>
+                      <p> \[\Rightarrow  \prod_{n=1}^{\infty}\left ( \frac{(n+4) (n+6)}{(n+5)^2} \right ) = \frac{m}{m + 1}\]</p>
+                      <p>\[\Rightarrow  \prod_{n=1}^{\infty}\left ( \frac{n + 4}{n + 5} \right ) \prod_{n=1}^{\infty}\left ( \frac{n + 6}{n + 5} \right ) = \frac{m}{m + 1}   .....(i)\]</p>
+                      <p>\[However \prod_{n+1}^{\infty}\frac{n + 4}{n + 5} = 5, and \prod_{n+1}^{\infty}\frac{n + 6}{n + 5} = \frac{1}{6} ........(ii) \]</p>
+                      <p>from \(i\) and \(ii\) we get \(\frac{m}{m + 1} = \frac{5}{6}\) and hence \(m = 5\)</p>
 					</div>
 					<div class="modal-footer">
 					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -140,12 +144,12 @@
                                 <br>
 								<br>
 
-                <li>what will be the name of our events?</li>
+                <li>There are \(10\) boxes numbered \(1,2,3,…,10\) each  containing \(2017\) white and \(2018\) black balls. A ball is drawn at random from  \(Box-1\) and is put into \(Box-2\).Then a ball is drawn at random from \(Box-2\) and is  put into \(Box-3\).This process is repeated until a ball is drawn from \(Box-9\) at  random and is put into \(Box-10\).Then a ball is drawn at random from \(Box-10\) at  random. What is the probability that this ball is black.</li>
                 				
-                              <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Modal1">Answer</button>
+                              <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Modal2">Answer</button>
 
 				  <!-- Modal -->
-				  <div class="modal fade" id="Modal1" role="dialog">
+				  <div class="modal fade" id="Modal2" role="dialog">
 				    <div class="modal-dialog">
 
 				      <!-- Modal content-->
@@ -155,7 +159,16 @@
 					  <h4 class="modal-title">Answer</h4>
 					</div>
 					<div class="modal-body">
-					  <p>The answer is 15.</p>
+					  <p>At first, we calculate the probability of drawing a black ball from the 1st box.</p>
+                      <p>Let us denote \({B_i}\) = The event of transferring a black ball from the \({i^{th}}\) box.</p>
+                      <p>and, \({W_i}\) = The event of transferring a white ball from the \({i^{th}}\) box.</p>
+                      <p>\(i=1(1)10\)</p>
+                      <p>clearly, \(P( {B_1}) = \frac{2018}{4035}\)</p>
+                      <p>Now, we shall use the Principle of Mathematical Induction to show that this probability remains the same after every ball transfer.</p>
+                      <p>Suppose, \(P( {B_k}) = \frac{2018}{4035}\)</p>
+                      <p>then, \(P({ W_k}) = 1 - P( {B_k}) = \frac{2017}{4035}\)</p>
+                      <p>Now, \(P({ B_{k+1}}) = P({ B_{k + 1}}|{B_k}) P({ B_k}) + P({ B_{k + 1}}|{W_k}) P({ W_k}) = \frac{2019}{4036}\cdot \frac{2018}{4035} + \frac{2018}{4036}\cdot \frac{2017}{4035} = \frac{2018}{4035}\)</p>
+                      <p>hence, \(P({ B_{10}}) = \frac{2018}{4035}\)</p>
 					</div>
 					<div class="modal-footer">
 					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -168,12 +181,12 @@
                       
                                 <br>
 								<br>
-                <li>How much rupees will the prize cost?</li>
+                <li>Find all integer values \(a\) such that the  quadratic expression \((x+a)(x+1991)+1\) can be factored as a product \((x+b)(x+c)\),  where \(b\) and \(c\) are integers.</li>
                 				
-                                 <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Modal1">Answer</button>
+                                 <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Modal3">Answer</button>
 
 				  <!-- Modal -->
-				  <div class="modal fade" id="Modal1" role="dialog">
+				  <div class="modal fade" id="Modal3" role="dialog">
 				    <div class="modal-dialog">
 
 				      <!-- Modal content-->
@@ -183,7 +196,11 @@
 					  <h4 class="modal-title">Answer</h4>
 					</div>
 					<div class="modal-body">
-					  <p>The answer is 15.</p>
+					  <p>\((x+a)(x+1991)+1=(x+b)(x+c)\)</p>
+                        <p>Putting \(x= -b\), we get , \((a-b)((b-1991)=1\).</p>
+                        <p>We note that \((a-b)\) and \((b-1991)\) are both integers. Hence, we have two possible cases.</p>
+                        <p>Case 1 :\((a-b)=1=(b-1991)\) which gives \(a = 1993\).</p>
+                        <p>Case 2 : \((a-b)= -1=(b-1991)\) which gives \(a = 1989\).</p>
 					</div>
 					<div class="modal-footer">
 					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -196,12 +213,12 @@
                                 
                                 <br>
 								<br>
-                <li>when will question setters finish their work?</li>
+                <li>Each of 10 line segments is longer than 1 cm and  shorter than 55 cm. Show that you can select 3 sides of a triangle from among  the segments.</li>
                 				
-                                 <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Modal1">Answer</button>
+                                 <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#Modal4">Answer</button>
 
 				  <!-- Modal -->
-				  <div class="modal fade" id="Modal1" role="dialog">
+				  <div class="modal fade" id="Modal4" role="dialog">
 				    <div class="modal-dialog">
 
 				      <!-- Modal content-->
@@ -211,7 +228,12 @@
 					  <h4 class="modal-title">Answer</h4>
 					</div>
 					<div class="modal-body">
-					  <p>The answer is 15.</p>
+					  <p>If possible let the given statement be wrong. Then given any two sides, all other sides must have length greater than the sum of the two given sides. The two smallest sides can be of length 1 cm each.</p>
+                      <p>Suppose the sides be \({a_1},{a_2},...,{a_{10}}\) where \({a_1}\leqslant {a_2}\leqslant {a_3}\leqslant ...\leqslant {a_{10}}\)</p>
+                      <p> We shall show that if the given statement is wrong then we must have \({a_{10}}\geqslant 55\) cm.</p>
+                      <p>To obtain the smallest possible value of \({a_{10}}\) ,we start with \({a_{1}} = 1\) cm and \({a_{2}}=1\) cm.</p>
+                      <p>\(\Rightarrow {a_3} > 2cm,\)\( \Rightarrow {a_4} > 3cm,\)\( \Rightarrow {a_5} > 5cm,\)\( \Rightarrow {a_6} > 8cm,\)\( \Rightarrow {a_7} > 13cm,\)\( \Rightarrow {a_8} > 21cm,\)\( \Rightarrow {a_9} > 34cm,\)\( \Rightarrow {a_{10}} > 55cm\)</p>
+                      <p>This contradicts our assumption. Hence, there must exist three sides which form a triangle.</p>
 					</div>
 					<div class="modal-footer">
 					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
