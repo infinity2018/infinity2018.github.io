@@ -52,6 +52,7 @@ p, li {
 
 .navbar-inverse .navbar-nav > li > a {
   color: black;
+  font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -62,7 +63,7 @@ p, li {
 
 
 .navbar-inverse {
-   background: rgba(20,46,123,1);
+   background: rgba(78,81,197,1);
 }
 .small-logo-container {
     padding-top: 5px;

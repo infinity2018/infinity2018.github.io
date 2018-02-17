@@ -1,10 +1,9 @@
 
 .s1 {
-	background-image: url(../img/st.png);
+	background-image: url(../img/w2.jpg);
 }
 .s2 {
-	background-image: ;
-	background-image: url(../img/bk.jpg);
+	background-image: url(../img/w3.jpg);
 }
 
 
@@ -28,7 +27,7 @@
   display: table-cell;
   font-weight: 400;
   font-size: 60px;
-  color: #F60;
+  color: white;
   text-align:center;
 }
 

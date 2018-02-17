@@ -2,7 +2,7 @@
 var navbarHeight = 70; 
 
 $(window).scroll(function() {
-  var navbarColor = "20,46,123";//color attr for rgba
+  var navbarColor = "78,81,197";//color attr for rgba
   var smallLogoHeight = $('.small-logo').height();
   var bigLogoHeight = $('.big-logo').height();
   
