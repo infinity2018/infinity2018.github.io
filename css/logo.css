@@ -62,7 +62,7 @@
 .big-logo-row {
 	background: #096;
 	max-width: 100%;
-	background-image: url(../img/b.png);
+	background-image: url(../img/big.jpeg);
 	background-size:cover;
 	background-size:100% 100%;
 }
@@ -81,31 +81,31 @@
 @media (max-width: 400px) {
   .big-logo-row h1 {
     font-size: 4em;
-	height:80px;
+	height:150px;
   }
 }
 @media (min-width: 400px) {
   .big-logo-row h1 {
     font-size: 4.5em;
-	height:90px;
+	height:200px;
   }
 }
 @media (min-width: 440px) {
   .big-logo-row h1 {
     font-size: 5.5em;
-	height:120px;
+	height:230px;
   }
 }
 @media (min-width: 500px) {
   .big-logo-row h1 {
     font-size: 6.5em;
-	height:160px;
+	height:300px;
   }
 }
 @media (min-width: 630px) {
   .big-logo-row h1 {
     font-size: 7.5em;
-	height:200px;
+	height:340px;
   }
  
 }
@@ -113,13 +113,13 @@
   .big-logo-row h1 {
     font-size: 9em;
     padding-bottom: 30px;
-	height:260px;
+	height:400px;
   }
 }
 @media (min-width: 1200px) {
   .big-logo-row h1 {
     font-size: 12em;
-	height:310px;
+	height:450px;
   }
 }
 /* CSS Document */
