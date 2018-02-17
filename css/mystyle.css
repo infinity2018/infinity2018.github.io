@@ -1,9 +1,9 @@
 @charset "utf-8";
 body {
-	background-color: rgba(0,255,255,0.2);
+	background-color: black;
 	background-size: 100% auto;
 	background-position: center center;
-	color: black;
+	color: #C93;
 	font-family: 'Macondo Swash Caps', cursive;
 	font-size: 19px;
 }
