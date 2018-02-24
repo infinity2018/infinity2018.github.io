@@ -5,7 +5,7 @@ body {
 	background-size: 100% auto;
 	background-position: center center;
 	color: #C93;
-	/*font-family: 'Bellefair', serif;*/
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5em;
 }
 h1 {
@@ -64,7 +64,7 @@ p, li {
 
 
 .navbar-inverse {
-   background: rgba(78,81,197,1);
+   background: rgba(158,91,219,1);
 }
 .small-logo-container {
     padding-top: 5px;
